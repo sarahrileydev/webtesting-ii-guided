@@ -8,10 +8,7 @@
     "testing",
     "lambda"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LambdaSchool/webtesting-ii-guided.git"
-  },
+  "repository": "git+https://github.com/LambdaSchool/webtesting-ii-guided.git",
   "bugs": {
     "url": "https://github.com/LambdaSchool/webtesting-ii-guided/issues"
   },
@@ -23,11 +20,16 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
+    "create-react-app": "^3.0.1",
+    "project": "^0.1.6",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-scripts": "2.1.8"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jest-dom": "^3.2.2",
+    "react-testing-library": "^7.0.1"
+  },
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -36,5 +38,6 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "license": "MIT"
 }
